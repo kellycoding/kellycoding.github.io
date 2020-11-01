@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.circle1 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.8); 
+    background: rgba(255,255,255,0.2);
+    margin: 100px 50px 75px 300px;
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.circle2 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.8); 
+    background: rgba(255,255,255,0.2);
+    margin: 100px 50px 75px 700px;
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.circle1:hover {
+    width: 275px;
+    height: 275px;
+    background: rgba(255,255,255,0.5);
+    margin: 95px 50px 75px 300px;
+    font-size: 55px;
+}
+
+.circle2:hover {
+    width: 275px;
+    height: 275px;
+    background: rgba(255,255,255,0.5);
+    margin: 95px 50px 75px 700px;
+    font-size: 55px;
+}
+
+.circletxt {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-shadow: #000 0px 0px 3px;
+    padding-top: 100px;
+}
+
+
+body {
+    background: url("space.png") no-repeat center top, url("green.jpg") no-repeat center 15%, url("yellow.jpg") no-repeat center 30%, url("red.jpg") no-repeat center 45% / 1920px 1080px, url("orange.jpg") no-repeat center 60% / 1920px 1080px, url("yellow2.jpg") no-repeat center 75% / 1920px 1080px, url("grass.jpg") no-repeat center 90% / 1920px 1080px, url("water.jpg") no-repeat center bottom / 1920px 1080px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 100px;
+    text-shadow: #000 0px 0px 4px;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-shadow: #000 0px 0px 2px;
+}
